@@ -47,7 +47,7 @@ const SearchBox = () => {
       className={
         typeof weather.main != "undefined"
           ? weather.main.temp < 12
-            ? "App cold"
+            ? "App  cold"
             : weather.main.temp < 26
             ? "App warm"
             : weather.main.temp > 26

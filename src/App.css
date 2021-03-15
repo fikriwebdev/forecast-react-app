@@ -24,27 +24,24 @@ h5 {
   overflow: hidden;
   min-height: 100vh;
   width: 100%;
-  transition: background-image 0.5s ease-in;
 }
 
-.App.warm {
+.warm {
   background-image: url("./content/warm.svg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
   min-height: 100vh;
   width: 100%;
-  transition: background-image 0.5s ease-in;
 }
 
-.App.cold {
+.cold {
   background-image: url("./content/cold.svg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
   min-height: 100vh;
   width: 100%;
-  transition: background-image 0.5s ease-in;
 }
 
 .container {
